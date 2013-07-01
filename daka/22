@@ -1,0 +1,90 @@
+
+==============
+Listen Port: 8888
+Target Host: erp1.360buy.com
+Target Port: 80
+==== Request ====
+GET /newhrm/kaoqing/time.aspx HTTP/1.1
+Accept: text/html, application/xhtml+xml, */*
+Referer: http://127.0.0.1:8888/newhrm/kaoqing/frdakaji.aspx
+Accept-Language: zh-CN
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+Accept-Encoding: gzip, deflate
+Host: erp1.360buy.com:8888
+Connection: Keep-Alive
+Cookie: ASP.NET_SessionId=uk5nvh55kzr0reuhuhnnfia2
+
+==== Response ====
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 2593
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+X-AspNet-Version: 2.0.50727
+Date: Mon, 01 Jul 2013 10:08:17 GMT
+Connection: close
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	时间
+</title>
+
+    <script language="javascript" type="text/javascript"> 
+        //特别注明：北京时间是格林尼治标准时加八小时，因此用的起始时间也是从八点起算的 
+        var secondServer = 1372673297.68362;
+        var secondClient = parseInt(new Date().getTime()/1000); 
+        var secondSub = secondServer - secondClient; //两端时间秒差 
+        //星期函数
+        function initArray()
+        {
+            this.length=initArray.arguments.length
+            for(var i=0;i<this.length;i++)
+            this[i+1]=initArray.arguments[i]
+        }
+        function meizzTime(n) 
+        { 
+            var mei = new Date(); 
+            mei.setTime(mei.getTime() + n*1000); //得到�?��新的时间 
+            var y = mei.getFullYear();//�?
+            //var y = mei.getYear();//�?
+            //y=(!document.all)?y+1900:y;
+            var t = mei.getMonth()+1;//月分�?��1
+            var d = mei.getDate();//�?
+            var w = new initArray(
+            "星期�?,
+            "星期�?,
+            "星期�?,
+            "星期�?,
+            "星期�?,
+            "星期�?,
+            "星期�?); 
+            var z = w[mei.getDay()+1]//星期
+            var h = (mei.getHours() > 9) ? mei.getHours() : "0" + mei.getHours(); //�?
+            var m = (mei.getMinutes() > 9) ? mei.getMinutes() : "0" + mei.getMinutes(); //�?
+            var s = (mei.getSeconds() > 9) ? mei.getSeconds() : "0" + mei.getSeconds(); //�?
+            
+            document.meizz.clock.value = y +" �?"+ t +" �?"+ d +" �?" + z +" "+ h +":"+ m +":"+ s; //显示年月日和时间
+            setTimeout("meizzTime(secondSub)", 1000); 
+        } 
+    </script>
+    <style type="text/css">
+        body {margin-left: 0px; margin-top: 0px;margin-right: 0px;margin-bottom: 0px;} 
+        .times{background:url(../images/daka/check_10.jpg) no-repeat;width:272px;height:35px;overflow:hidden;padding-left:60px;padding-top:11px;border:none}
+    </style>
+</head>
+<body onload="meizzTime(secondSub)">
+    <form name="meizz" method="post" action="time.aspx" id="meizz">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExOTc0MjQyMjVkZNDoPNb3buWr1Ex91L3w8m8AAAAA" />
+</div>
+
+        <input name="clock" size="40" class="times" />
+    </form>
+</body>
+</html>
+
+==============

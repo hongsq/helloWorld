@@ -1,0 +1,122 @@
+
+==============
+Listen Port: 8888
+Target Host: erp1.360buy.com
+Target Port: 80
+==== Request ====
+POST /newhrm/kaoqing/frdakaji.aspx HTTP/1.1
+Accept: text/html, application/xhtml+xml, */*
+Referer: http://127.0.0.1:8888/newhrm/kaoqing/frdakaji.aspx
+Accept-Language: zh-CN
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+Host: erp1.360buy.com:8888
+Content-Length: 437
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: ASP.NET_SessionId=uk5nvh55kzr0reuhuhnnfia2
+
+__LASTFOCUS=&__VIEWSTATE=%2FwEPDwULLTE3NjkxNDU4NzEPZBYCAgMPZBYEAgEPD2QWAh4Jb25rZXlkb3duBVtpZihldmVudC5rZXlDb2RlPT05IHx8IGV2ZW50LmtleUNvZGU9PTEzKXsgZG9jdW1lbnQuYWxsLnR4dF9QYXNzd29yZC5mb2N1cygpO3JldHVybiBmYWxzZTt9ZAIHDxYCHgRUZXh0ZWRkHdsraEhohih0PPcby0guaAAAAAA%3D&__EVENTTARGET=&__EVENTARGUMENT=&__EVENTVALIDATION=%2FwEWBAKwgrb8CgL3xJvhBAKM54rGBgLS9cL8AlWGlEyq99Su3ZHXPaZ2kG0AAAAA&txt_UserName=bjhongshuiqiao&Button1=&txt_Password=h0325@sq==== Response ====
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 4777
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+X-AspNet-Version: 2.0.50727
+Date: Mon, 01 Jul 2013 10:08:17 GMT
+Connection: close
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	打卡�?
+</title>
+    <style type="text/css">
+        body{margin:0;padding:0;font-size:14px;line-height:150%;text-align:center}
+        div{margin:0;padding:0}a{color:#f30;font-size:12px; text-decoration:none}
+        .wrap{width:99%;border:1px solid #7ab7e5;background:#f0f9ff;margin:5px auto;height:600px; text-align:left}
+        .header{border-bottom:1px solid #78b8e8;background:url(../images/daka/checks_03.jpg) no-repeat 8px center;height:85px;line-height:85px;font-size:24px;color:#2d74b2;margin:0 15px;padding:0 180px}
+        .content{background:#f8fcff;width:445px;height:221px;margin:30px auto;padding-top:50px;border:1px solid #78b8e8}
+        .times{margin:0 auto 40px;background:url(../images/daka/check_10.jpg) no-repeat;width:272px;height:35px; overflow:hidden;padding-left:40px;line-height:35px}
+        .login{margin-left:auto;margin-right:auto}
+        .login_input{padding:1px;height:19px;width:152px;border:1px solid #7ab7e5}
+        .login_button{ background:url(../images/daka/check_14.jpg) no-repeat;width:72px;height:67px;border:none;font-size:0}
+    </style>
+</head>
+<body>
+    <form name="form1" method="post" action="frdakaji.aspx" id="form1">
+<div>
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE3NjkxNDU4NzEPZBYCAgMPZBYEAgEPD2QWAh4Jb25rZXlkb3duBVtpZihldmVudC5rZXlDb2RlPT05IHx8IGV2ZW50LmtleUNvZGU9PTEzKXsgZG9jdW1lbnQuYWxsLnR4dF9QYXNzd29yZC5mb2N1cygpO3JldHVybiBmYWxzZTt9ZAIHDxYCHgRUZXh0BZwBPHNjcmlwdCBsYW5ndWFnZT0namF2YXNjcmlwdCc+YWxlcnQoJ+aJk+WNoeaIkOWKnyHml7bpl7TkuLrvvJoyMDEzLTctMSAxODowODoxNycpO3dpbmRvdy5sb2NhdGlvbi5ocmVmPSdGcmthb3FpbmdlcmVuLmFzcHg/dXNlcm5hbWU9QkpIT05HU0hVSVFJQU8nPC9zY3JpcHQ+ZGT0DUfB1jPalsqKpXmmCwGcAAAAAA==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/NEWHRM/WebResource.axd?d=WMCPYqAF877yYLlH4A3I8A2&amp;t=634364713497620534" type="text/javascript"></script>
+
+
+<script src="/NEWHRM/WebResource.axd?d=Km5Vi5TZot9MQAS2Uhvm2A2&amp;t=634364713497620534" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+	<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBALe1tq5BwL3xJvhBAKM54rGBgLS9cL8Ap+omTWUsVtHjfRAYsJazlIAAAAA" />
+</div>
+        <div class="wrap">
+            <h2 class="header">
+                上下班打卡机</h2>
+           <div class="content">
+                <div align="center" style="margin:0 auto 40px;">
+                    <iframe src="time.aspx" frameborder="0" width="312"  scrolling="no" height="38"></iframe>
+                    </div>
+                <table width="312" border="0" cellspacing="0" cellpadding="0" class="login">
+                    <tr>
+                        <td width="70" height="30" align="right">
+                            用户名：</td>
+                        <td width="200">
+                            <input name="txt_UserName" type="text" id="txt_UserName" tabindex="1" class="login_input" onkeydown="if(event.keyCode==9 || event.keyCode==13){ document.all.txt_Password.focus();return false;}" />
+                            <td width="42" rowspan="2">
+                                <input type="submit" name="Button1" value="" id="Button1" tabindex="3" class="login_button" />
+                            </td>
+                    </tr>
+                    <tr>
+                        <td height="30" align="right">
+                            �?nbsp;&nbsp;&nbsp;码：</td>
+                        <td>
+                            <input name="txt_Password" type="password" id="txt_Password" tabindex="2" class="login_input" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <script language='javascript'>alert('打卡成功!时间为：2013-7-1 18:08:17');window.location.href='Frkaoqingeren.aspx?username=BJHONGSHUIQIAO'</script>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+WebForm_AutoFocus('txt_UserName');//]]>
+</script>
+</form>
+</body>
+</html>
+
+==============
